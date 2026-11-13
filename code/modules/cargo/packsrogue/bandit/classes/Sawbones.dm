@@ -15,13 +15,13 @@
 
 /datum/supply_pack/rogue/Sawbones/trustworthymask
 	name = "Trustworthy Mask"
-	cost = 5
-	contains = list(/obj/item/clothing/head/roguetown/physician)
+	cost = 20
+	contains = list(/obj/item/clothing/mask/rogue/physician/plaguebearer)
 
 /datum/supply_pack/rogue/Sawbones/leather/Lhelmet
 	name = "Leather Helmet"
 	cost = 10
-	contains = list(/obj/item/clothing/mask/rogue/physician/plaguebearer)
+	contains = list(/obj/item/clothing/head/roguetown/helmet/leather)
 	
 /datum/supply_pack/rogue/Sawbones/metal/khelmet
 	name = "Kettle Helmet"
@@ -85,6 +85,21 @@
 	name = "Hardened Leather Armor"
 	cost = 20
 	contains = list(/obj/item/clothing/suit/roguetown/armor/leather/heavy)
+	
+/datum/supply_pack/rogue/Sawbones/hauberk
+	name = "Hauberk"
+	cost = 20
+	contains = list(/obj/item/clothing/suit/roguetown/armor/chainmail/hauberk)
+	
+/datum/supply_pack/rogue/Sawbones/scuirass
+	name = "Steel Cuirass"
+	cost = 30
+	contains = list(/obj/item/clothing/suit/roguetown/armor/plate/half)
+	
+/datum/supply_pack/rogue/Sawbones/scuirass
+	name = "Scalemail"
+	cost = 40
+	contains = list(/obj/item/clothing/suit/roguetown/armor/plate/scale)
 
 ///////////////////
 // WRISTS/GLOVES //
@@ -114,6 +129,11 @@
 	name = "Fingerless Leather Gloves"
 	cost = 10
 	contains = list(/obj/item/clothing/gloves/roguetown/fingerless_leather)
+	
+/datum/supply_pack/rogue/Sawbones/bracers
+	name = "Steel Bracers"
+	cost = 20
+	contains = list(/obj/item/clothing/wrists/roguetown/bracers)
 
 ///////////////
 // LEGS/FEET //
@@ -130,9 +150,14 @@
 	contains = list(/obj/item/clothing/under/roguetown/heavy_leather_pants)
 	
 /datum/supply_pack/rogue/Sawbones/leather/hboots
-	name = "Heavy Leather Boost"
+	name = "Heavy Leather Boots"
 	cost = 10
 	contains = list(/obj/item/clothing/shoes/roguetown/boots/leather/reinforced)
+	
+/datum/supply_pack/rogue/Sawbones/chainchausses
+	name = "Chain Chausses"
+	cost = 20
+	contains = list(/obj/item/clothing/under/roguetown/chainlegs)
 
 /////////////
 // WEAPONS //
